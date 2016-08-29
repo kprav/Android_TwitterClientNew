@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kp/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_38b060c039c2830b132b353eb804f47e3184f378/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="77ab888a24665d54685f1e49e003a021192c9589">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_175b08a5587a1658e751aa2526ef0c33f3cfee64/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="07aa74f1dee90d22616f6aa98a65bea8458cf671">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.codepath.libraries-android-oauth-handler-1.0.0_5971fca4e54604d7c54c261033d3b97419837793/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_7e3d2e806e96e5e8a68bead111ba37a24efa70a4/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/jars/libs/scribe-codepath-0.0.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3d2ba852ca4cb07c2e9ecbd9a56ff9456025e344">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribe-codepath-0.0.3_41c89be97b076ff92f837b009c6d24fdc95752bf/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="60bcd8d1f7e3f59fafab5fe641a3bb9aa1f89cba">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b8f2249ead89fa7c8fc1ac6cb17aaee05c6a829b/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_9145579dd8eed7f5c03a1f317e4963da2426dc1f/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_7732dad5b8b86d93ce73520ced4b7924f42144ce/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_293b15a51beeffb296c4c017852e3bc11ef5279b/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_b8625e7b6c99bd10ae88befe2762904c9aa79835/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/jars/libs/codepath-utils.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9a9f67173c34e04d2d5609283d43f3006cc4d947">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/codepath-utils_2d741b3fd17e980c90afa907d6bd10ee52a73c26/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_2a2ad75f1bb178e73abc51566216c95383bb69d7/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_3c8f67fe1434d217c24d0512673d1ba170cf1898/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/activeandroid-3.1.0-SNAPSHOT_75fa6d96814089bc1e55d5a1da03e213d2da0c45/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/libs/org.apache.http.legacy.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.http.legacy_30bb08e4698ba7ec2a0b5bd21e51da2aa153da8b/classes.dex" />
+    </item>
+    <item
+        jar="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_a068775ce90e46b042f87354a2feb560f4c996ca/classes.dex" />
+    </item>
+
+</items>
