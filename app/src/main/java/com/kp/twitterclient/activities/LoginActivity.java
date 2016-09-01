@@ -1,11 +1,12 @@
 package com.kp.twitterclient.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
-import com.kp.twitterclient.R;
 import com.codepath.oauth.OAuthLoginActionBarActivity;
+import com.kp.twitterclient.R;
 import com.kp.twitterclient.applications.TwitterClient;
 
 public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
@@ -28,8 +29,8 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 	// i.e Display application "homepage"
 	@Override
 	public void onLoginSuccess() {
-		// Intent i = new Intent(this, PhotosActivity.class);
-		// startActivity(i);
+		Intent i = new Intent(this, BaseActivity.class);
+		startActivity(i);
 	}
 
 	// OAuth authentication flow failed, handle the error

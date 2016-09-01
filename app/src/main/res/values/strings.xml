@@ -3,5 +3,7 @@
 
     <string name="app_name">Tweeter</string>
     <string name="login_label">Connect To Twitter</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
