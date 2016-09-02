@@ -162,7 +162,7 @@ ADDED from /home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/AndroidMa
 	android:scheme
 		ADDED from /home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/AndroidManifest.xml:47:21-43
 activity#com.kp.twitterclient.activities.BaseActivity
-ADDED from /home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/AndroidManifest.xml:50:9-53:68
+ADDED from /home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/AndroidManifest.xml:50:9-53:58
 	android:launchMode
 		ADDED from /home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/AndroidManifest.xml:52:13-43
 	android:theme

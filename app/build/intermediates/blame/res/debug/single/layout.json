@@ -156,8 +156,20 @@
         "source": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/res/merged/debug/layout/item_tweet.xml",
+        "source": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/res/layout/item_tweet.xml"
+    },
+    {
+        "merged": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/res/merged/debug/layout/fragment_tweets_list.xml",
+        "source": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/res/layout/fragment_tweets_list.xml"
+    },
+    {
         "merged": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/res/merged/debug/layout/inline_photo.xml",
+        "source": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/src/main/res/layout/inline_photo.xml"
     },
     {
         "merged": "/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/res/merged/debug/layout/activity_base.xml",

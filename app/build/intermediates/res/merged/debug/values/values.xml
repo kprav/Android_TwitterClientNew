@@ -275,14 +275,33 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_compose">Compose</string>
+    <string name="action_profile">Profile</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Tweeter</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="label_cancel_button">X</string>
+    <string name="label_creation_time">time</string>
+    <string name="label_max_chars">140</string>
+    <string name="label_num_followers">Num Followers</string>
+    <string name="label_num_following">Num Following</string>
+    <string name="label_num_tweets">Num Tweets</string>
+    <string name="label_profile_name">Profile Name</string>
+    <string name="label_reply">Reply</string>
+    <string name="label_retweet">Retweet</string>
+    <string name="label_tag_line">Profile Tag Line</string>
+    <string name="label_tweet">Tweet</string>
+    <string name="label_tweet_body">TweetBody</string>
+    <string name="label_tweet_hint">What\'s happening?</string>
+    <string name="label_twitter_handle">TwitterHandle</string>
+    <string name="label_user_name">UserName</string>
     <string name="login_label">Connect To Twitter</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_timeline">Home Timeline</string>
+    <string name="title_activity_tweet_detail">TweetDetailActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
