@@ -125,10 +125,10 @@ public class Entity implements Parcelable {
                             entity = new Entity();
                             entity.mediaType = "photo"; // currently twitter returns only photos
                             entity.mediaUrl = mediaJSON.getString("media_url");
-                            entity.mediaUrlThumb = entity.mediaUrlThumb + ":thumb";
-                            entity.mediaUrlSmall = entity.mediaUrlThumb + ":small";
-                            entity.mediaUrlMedium = entity.mediaUrlThumb + ":medium";
-                            entity.mediaUrlLarge = entity.mediaUrlThumb + ":large";
+                            entity.mediaUrlThumb = entity.mediaUrl + ":thumb";
+                            entity.mediaUrlSmall = entity.mediaUrl + ":small";
+                            entity.mediaUrlMedium = entity.mediaUrl + ":medium";
+                            entity.mediaUrlLarge = entity.mediaUrl + ":large";
                         }
                     }
                 }

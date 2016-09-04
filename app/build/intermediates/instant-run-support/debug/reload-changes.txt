@@ -1,0 +1,2 @@
+CHANGED,/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/kp/twitterclient/fragments/TweetsListFragment$override.class
+CHANGED,/home/kp/AndroidRepos/Android_TwitterClientNew/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

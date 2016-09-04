@@ -3,10 +3,14 @@ package com.kp.twitterclient.models;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.kp.twitterclient.applications.TwitterClient;
 import com.kp.twitterclient.helpers.DateUtilities;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 public class Tweet implements Parcelable {
     private long tweetId;
@@ -153,6 +157,32 @@ public class Tweet implements Parcelable {
             e.printStackTrace();
         }
         return tweet;
+    }
+
+    // Pass in an array of JSON items and return a list of tweets
+    public static ArrayList<Tweet> fromJSONArray(TweetType tweetType, JSONArray jsonArray) {
+        ArrayList<Tweet> tweets = new ArrayList<Tweet>();
+        if (jsonArray !=  null) {
+            for (int i = 0; i < jsonArray.length(); i++) {
+                try {
+                    if (jsonArray.optJSONObject(i) != null) {
+                        JSONObject tweetsJson = jsonArray.getJSONObject(i);
+                        Tweet tweet = Tweet.fromJSON(tweetsJson);
+                        if (tweet != null) {
+                            tweet.tweetType = tweetType;
+                            tweets.add(tweet);
+                        }
+                        if (tweetType.equals(TweetType.HOME_TIMELINE))
+                            TwitterClient.MAX_TWEET_ID_HOME = tweet.getTweetId();
+                        // TODO: MENTIONS and USER TIMELINES
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                    continue;
+                }
+            }
+        }
+        return tweets;
     }
 
     @Override

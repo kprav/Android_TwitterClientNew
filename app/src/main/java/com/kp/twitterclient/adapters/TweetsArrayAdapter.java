@@ -38,7 +38,7 @@ public class TweetsArrayAdapter extends ArrayAdapter<Tweet> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         final Tweet tweet = getItem(position);
-        boolean newView = false;
+        boolean newConvertView = false;
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_tweet, parent, false);
@@ -50,14 +50,14 @@ public class TweetsArrayAdapter extends ArrayAdapter<Tweet> {
             viewHolder.tvTweetBody = (TextView) convertView.findViewById(R.id.tvTweetBody);
             viewHolder.rlInlinePhoto = (RelativeLayout) convertView.findViewById(R.id.rlInlinePhoto);
             convertView.setTag(viewHolder);
-            newView = true;
+            newConvertView = true;
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
-            newView = false;
+            newConvertView = false;
         }
 
         viewHolder.tvUserName.setText(tweet.getUser().getUserName());
-        viewHolder.tvTwitterHandle.setTag(tweet.getUser().getTwitterHandle());
+        viewHolder.tvTwitterHandle.setText(tweet.getUser().getTwitterHandle());
         viewHolder.tvCreationTime.setText(tweet.getRelativeCreationTime());
         viewHolder.tvTweetBody.setText(tweet.getTweetBody());
         viewHolder.ivProfileImage.setImageResource(android.R.color.transparent);
@@ -70,7 +70,7 @@ public class TweetsArrayAdapter extends ArrayAdapter<Tweet> {
             ImageView ivInlinePhoto = null;
             String mediaUrl = tweet.getEntity().getMediaUrlLarge();
             viewHolder.rlInlinePhoto.setVisibility(View.VISIBLE);
-            if (newView) {
+            if (newConvertView) {
                 viewHolder.rlInlinePhoto.removeAllViews();
                 LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 View inlinePhotoView = inflater.inflate(R.layout.inline_photo, null);
@@ -90,6 +90,8 @@ public class TweetsArrayAdapter extends ArrayAdapter<Tweet> {
         }
 
         // TODO: Set onlick listener for profile image and name to take to user profile
+
+        // TODO: Insert the Tweet to database before returning the convertView
 
         return convertView;
     }
